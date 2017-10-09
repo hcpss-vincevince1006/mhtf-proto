@@ -60,7 +60,7 @@
 
 <div class="container page group">
 <div class="main">
-
+{% if page.sidebar_view == false %}
 <nav class="secondary-nav">
   <div class="secondary-nav__inner">
   <input class="second-state" type="checkbox" name="second-nav-state" id="secondary-nav--toggle" autocomplete="off">
@@ -71,5 +71,5 @@
     </ul>
   </div>
 </nav>
-
+{% endif %}
 <!-- <p>&mdash;&mdash; Page Template &mdash;&mdash;</p> -->
